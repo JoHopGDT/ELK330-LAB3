@@ -1,0 +1,157 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[norsk]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{cite}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4em}
+
+\title{LAB 3: Early Stage Assessment}
+\author{Joakim Gual De Torrella Rivero Hopen}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% ============================================================
+\section{Prosjekttittel}
+
+\textbf{Analyse av økt kraftproduksjon i Nord-Norge og påvirkningen
+på transmisjonsnettet mot Sør-Norge}
+
+
+% ============================================================
+\section{Problemstilling og mål}
+
+\subsection{Problemstilling}
+
+Prosjektet skal undersøke hvordan økt kraftproduksjon i Nord-Norge
+påvirker kraftoverføringen gjennom transmisjonsnettet mot Sør-Norge.
+Hovedfokuset er hvordan økt produksjon påvirker effektflyt,
+belastning av overføringslinjer og spenningsforhold i nettet.
+Det skal også undersøkes om begrensninger i overføringskapasiteten
+kan redusere muligheten til å utnytte et eventuelt kraftoverskudd
+i Nord-Norge.
+
+Dette er relevant fordi et sterkere nett mellom Nord- og Sør-Norge
+kan gjøre det mulig å utnytte kraftoverskuddet i nord bedre.
+Bedre overføringskapasitet kan bidra til en mer effektiv utnyttelse
+av kraftressursene og potensielt lavere strømpriser.
+
+\subsection{Mål}
+
+Målet med prosjektet er derfor å undersøke, gjennom simuleringer,
+lastflytanalyse og data, hvordan økt kraftproduksjon i Nord-Norge
+påvirker transmisjonsnettet mot Sør-Norge, og hvilke begrensninger
+som eventuelt oppstår.
+
+\subsection{Faglige spørsmål}
+
+\begin{itemize}
+    \item Hvordan påvirker økt kraftproduksjon i Nord-Norge
+    effektflyten mot Sør-Norge?
+
+    \item Kan økt kraftproduksjon føre til overbelastning
+    av transmisjonslinjer?
+
+    \item Hvordan påvirker økt kraftoverføring spenningene
+    og effekttapene i nettet?
+
+    \item Hvordan kan økt overføringskapasitet bidra til bedre
+    utnyttelse av kraftproduksjonen i Nord-Norge?
+\end{itemize}
+
+
+% ============================================================
+\section{Faglig grunnlag}
+
+\subsection{Teori og faglig bakgrunn}
+
+Det faglige grunnlaget for prosjektet vil hovedsakelig være
+lastflytanalyse, overføringskapasitet, spenningsforhold og
+effekttap i transmisjonsnettet. PowerFactory vil bli brukt
+til å simulere hvordan økt kraftproduksjon påvirker nettet.
+
+\subsection{Sentrale kilder}
+
+\begin{itemize}
+    \item \textbf{Fagbok:} \textit{Power System Analysis}
+    av Grainger, Stevenson og Chang (2016).
+    Til teori om lastflytanalyse, transmisjonslinjer
+    og effekttap \cite{grainger2016}.
+
+    \item \textbf{Vitenskapelig artikkel:}
+    \textit{Spatio-temporal smoothing and dynamics of different
+    electricity flexibility options for highly renewable energy
+    systems---Case study for Norway} (2024).
+    Til å undersøke hvordan kraftoverføring mellom regioner
+    kan bidra til bedre utnyttelse av kraftproduksjonen
+    \cite{grochowicz2024}.
+
+    \item \textbf{Rapport:} Statnett,
+    \textit{Analyse av transportkanaler 2025--2050}.
+    Til informasjon om overføringskapasitet og begrensninger
+    i det norske transmisjonsnettet \cite{statnett2025}.
+\end{itemize}
+
+\subsection{Litteratursøk}
+
+Jeg planlegger å bruke ChatGPT til å finne relevant faglitteratur
+og forskningsartikler. Deretter vil jeg kontrollere kildene og
+vurdere hvor relevante de er for prosjektet. Jeg vil også bruke
+Oria og Statnetts nettsider.
+
+
+% ============================================================
+\section{Foreløpig plan}
+
+Jeg planlegger å undersøke tilgjengelige data om kraftproduksjon
+og overføringskapasitet, og deretter bruke PowerFactory til å
+simulere økt produksjon i Nord-Norge. Resultatene skal sammenlignes
+for å undersøke hvordan effektflyten og belastningen i
+transmisjonsnettet endres. Arbeidet vil bestå av litteratursøk,
+modellering, simuleringer og analyse av resultatene fram mot
+sluttrapporten.
+
+
+% ============================================================
+\section{Ambisjon og gjennomførbarhet}
+
+Ambisjonen er å gjennomføre en realistisk analyse av hvordan
+økt kraftproduksjon påvirker transmisjonsnettet. Den største
+utfordringen blir trolig å finne tilstrekkelige data og lage
+en representativ nettmodell. Det kan derfor bli nødvendig
+å forenkle nettet og begrense analysen til utvalgte
+overføringsforbindelser. Produksjonsnivå, linjeimpedanser
+og overføringskapasitet forventes å ha stor innvirkning
+på resultatene.
+
+
+% ============================================================
+
+\section{Bruk av kunstig intelligens}
+
+ChatGPT fra OpenAI ble brukt som hjelpemiddel til litteratursøk,
+kodegenerering og rettskrivning. Forslagene ble kontrollert
+og tilpasset før bruk.
+
+\section{GitHub-repository}
+
+Prosjektfilene er tilgjengelige på GitHub:
+
+\url{https://github.com/JoHopGDT/ELK330-LAB3}
+\vspace{30mm}
+% ============================================================
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
